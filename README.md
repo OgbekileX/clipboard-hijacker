@@ -62,10 +62,7 @@ git clone https://github.com/OgbekileX/clipboard-hijacker.git
 cd clipboard-hijacker
 
 ### 2. Install Python Dependencies
-pip install -r requirements.txt
-requirements.txt:
-pyperclip
-requests
+pip install -r requirements
 
 ### ⚙️ Telegram Bot Setup (Optional)
 To receive real-time replacement logs via Telegram:
@@ -81,11 +78,14 @@ Copy your chat_id.
 
 ## Step 3: Add to hijacker.py
 bot_token = "YOUR_BOT_TOKEN"
+
 chat_id = "YOUR_CHAT_ID"
+
 The script will now send a message each time a clipboard replacement occurs.
 
 ### ▶️ How to Run the Tool
 python hijacker.py
+
 You can use tools like tmux, screen, nohup, or autostart methods if you wish to run it persistently.
 
 ### 🛡️ For Blue Teams: How to Defend Against Clipboard Hijacking

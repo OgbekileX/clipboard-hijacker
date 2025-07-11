@@ -41,15 +41,15 @@ This simulation tool can detect and replace the following wallet formats:
 
 | Coin | Wallet Address Used |
 |------|---------------------|
-| **BTC** | `bc1kojgyutrdfyuhijkhutyrfyuer` |
-| **ETH** | `0x1kjkotyrestfguyhikjdtregyi8jutredftgu7rfgy` |
-| **BNB** | `0xiyutrfd5tfguyhitredguyhikjtuhrgyedtfguyhi` |
-| **LTC** | `ltc1iyutr5tfguyhikyjtrdrfguyhjfgtdy8utr6f` |
-| **TRX** | `TQCJ3Luytrfguyhikjtrftguyhijsdrftfygujghfydt` |
-| **SOL** | `34Qugcdrftgujyhghtrfdtgujhfydrtfgyughfdrtfy` |
-| **ADA** | `addr1q9z57kwy8treujyhdrftyuiyhtryuitrfgdytguhrfyduhjrfydguhijhtfsdrfuyhijhdrfydtuihugy` |
-| **DOGE** | `DBjhigudrtfuijyuhtrfggyuyhiujhgytredfytfgyu` |
-| **XRP** | `rN6Lpkojiuherwqtfgujhjigtrfdtfuikjhtrfgug` |
+| **BTC** | `bc1qexample000000000000000000000000000000000` |
+| **ETH** | `0x000000000000000000000000000000000000dEaD` |
+| **BNB** | `0x000000000000000000000000000000000000dEaD` |
+| **LTC** | `ltc1qexample0000000000000000000000000000000` |
+| **TRX** | `TXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX` |
+| **SOL** | `11111111111111111111111111111111` |
+| **ADA** | `addr1qexample000000000000000000000000000000000000000000000000000000` |
+| **DOGE** | `DExampleWalletAddr000000000000000000` |
+| **XRP** | `rExampleWalletAddress000000000000000` |
 
 ---
 
@@ -105,13 +105,13 @@ Find the section with wallet mappings:
 
 wallet_map = {
 
-    |"BTC": "bc1qgxj7prjxa6v3ay6nq34hv5gzn7mxde0e7mm6m0",|
+    |"BTC": "bc1qexample000000000000000000000000000000000",|
     
-    |"ETH": "0x18d4A160651A0Dc1b21A22f1A997d0eA27978668",|
+    |"ETH": "0x000000000000000000000000000000000000dEaD",|
     
-    "BNB": "0x18d4A160651A0Dc1b21A22f1A997d0eA27978668",
+    "BNB": "0x000000000000000000000000000000000000dEaD",
     
-    "LTC": "ltc1qnp44ela6xyxn800p5cjz23zcfvfu7lx9jgzd3w",
+    "LTC": "ltc1qexample0000000000000000000000000000000",
     
     ...
 }

